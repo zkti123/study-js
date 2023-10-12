@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조건문-3</title>
+</head>
+<body>
+    <script>
+        //2와 3의 공배수를 검사하는 프로그램
+        var value = window.prompt("숫자를 입력해주세요");
+        value = parseInt(value);
+    //    alert(typeof(value));
+
+        
+        if((value %2 == 0) && (value % 3 == 0)){
+            alert("2와 3의 공배수 입니다.")
+        }else{
+            alert("2와 3의 공배수가 아닙니다.")
+        }
+
+        if((value %2 == 0)|| (value % 3 == 0)){
+            alert("2이거나 3의 배수 입니다.")
+        }else{
+            alert("2이거나 3의 배수가 아닙니다.")
+        }
+
+    </script>
+    
+</body>
+</html>
